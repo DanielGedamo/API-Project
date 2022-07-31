@@ -11,10 +11,13 @@ function showData() {
     listContainer.innerHTML += 
     `<div class= "card ">
     <h2>${title}</h2>
-    <img src="${image}">
+    <img  src="${image} "<button  type="button"  data-bs-toggle="modal" data-bs-target="#exampleModal">
     <p>${description}</p>
+  </button>"
     <a href="${embedUrls}"><button type="button" class="btn btn-outline-primary">see more</button></a>
-    </div> `;
+    </div>
+   `;
   });
 }
 showData();
+

@@ -1,11 +1,16 @@
 .card img{
 height: 300px;
-/* width: 250px;
-box-shadow: 5px,5px,5px,5px;
-overflow: hidden; */
 }
 .card p :hover{
     background-color: rgb(67, 68, 68);
+}
+.card{
+    width: 300px;
+}
+.myMAIN{
+    background-image:url(/imags/tranc.jpg);
+    background-attachment: fixed;
+    background-position: center;
 }
 
 

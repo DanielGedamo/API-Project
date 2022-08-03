@@ -9,11 +9,11 @@ function showData() {
     let date = item.date;
     let location = item.location;
     listContainer.innerHTML += 
-    `<div class= "card col-md-3 ">
+    `<div class= "card col-md-3 m-1 ">
     <h2>${title}</h2>
     <img class="img-fluid img-top" src="${image} ">
-    <p class = "d-none dscrip"><b>Description:</b>${description}</p>
     <button class="btn btn-outline-primary fstivalbtn ">click for more</button>
+    <p class = "d-none dscrip"><b>Description:</b>${description}</p>
     <P><b>Date:</b>${date}</p>
     <p><b>Location:</b>${location}</p>
     <a href="${embedUrls}"><button type="button" class="btn btn-outline-primary">see more</button></a>
@@ -31,6 +31,10 @@ function showDescription(){
   document.querySelectorAll(".fstivalbtn").forEach((item,i)=>{
     // console.log(item);
     item.addEventListener("mouseover",()=>{
+     document.querySelectorAll(".dscrip")[i].classList.toggle("d-block")
+     document.querySelectorAll(".dscrip")[i].classList.toggle("d-none");
+    })
+    item.addEventListener("mouseleave",()=>{
      document.querySelectorAll(".dscrip")[i].classList.toggle("d-block")
      document.querySelectorAll(".dscrip")[i].classList.toggle("d-none");
     })

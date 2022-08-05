@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">  <title>Document</title>
-    <link rel="stylesheet" href="fest.css">
+    <link rel="stylesheet" href="contactUs.css">
     <title>Document</title>
 </head>
 <body>
@@ -33,20 +33,34 @@
           </div>
         </div>
       </nav>
-      <main class="myMAIN">
-        <div class="list-container row 
-        m-2 ">
+        <div id="main">
 
-        </div>
+          <div class="mane" >
+          <form id="myFORM" >          
+            <div class="contactUs"><h1>contact form</h1></div>
+            <div id="name">
+              <input class="firstName" type="text" name="r-name "placeholder="first name" >
+              <label class="firstladel"> first name</label> 
+              <input class="lastName" type="text" name="lastName" placeholder="last Name">
+              <label class="lestLabel"> lest name</label>
+            </div>
+            
+            <h2 class="name">Email</h2>
+            <input class="email" type="text" name="email" placeholder="enter Email">
 
-      </main>
-      <footer class="text-center text-white sticky-bottom d-block" style="background-color: #21081a;">
-        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.454);">
-          © 2020 Copyright:
-          <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+            <h2 class="phon-label">Phon Number</h2>
+            <input class="num" type="tel" name="area_code"placeholder="enter Phon Number" >
+            <button id="seand-btr">SEAND</button>
+            </div>
+          </form>
         </div>
-      </footer>
-    </body>
-    <script type="module" src="fest.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+        <footer class="text-center text-white sticky-bottom d-block" style="background-color: #21081a;">
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.454);">
+              © 2020 Copyright:
+              <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+            </div>
+          </footer>
+        
+      <!-- <script src="main.js"></script> -->
+</body>
 </html>

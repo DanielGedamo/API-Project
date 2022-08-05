@@ -1,18 +1,18 @@
 
 .picOne{
-   width: 50vh;
-   height: 15vw;
+   width: 100vh;
+   height: 35vw;
 }
 .sectionOne{
-   border: solid rgba(70, 66, 66, 0.555) 5px;
-   background-color: rgba(3, 3, 3, 0.822); 
+   border: solid rgba(14, 182, 19, 0.555) 5px;
+   /* background-color: rgba(23, 83, 37, 0.822);  */
    margin: 8px;
    
 }
 .main{
-   background-image:url(imags/37f0a1dae8a6050415ad85f217f259b6--mind-tricks-psychedelic-art.jpg); 
+   /* background-image:url(imags/37f0a1dae8a6050415ad85f217f259b6--mind-tricks-psychedelic-art.jpg); 
    background-attachment: fixed;
-   background-position: center;
+   background-position: center; */
    margin: 0; 
-   /* background-color: rgba(32, 31, 31, 0.466); */
+   background-color: rgb(255, 251, 251);
 }

@@ -6,11 +6,13 @@ height: 300px;
 }
 .card{
     width: 300px;
+    background-color: rgba(252, 255, 254, 0.998);
 }
 .myMAIN{
-    background-image:url(/imags/tranc.jpg);
+    /* background-image:url(/imags/tranc.jpg);
     background-attachment: fixed;
-    background-position: center;
+    background-position: center; */
+    background-color: black;
 }
 
 

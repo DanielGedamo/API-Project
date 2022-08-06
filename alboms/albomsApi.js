@@ -10,12 +10,15 @@ const options = {
 };
 const button = document.getElementById(artistName)
 button.innerHTML += '<i class="fa fa-refresh fa-spin"></i>'
-fetch(`https://spotify23.p.rapidapi.com/album_tracks/?id=${albomId}&offset=0&limit=300`, options)
+const ArtistList = document.getElementById(artistName)
+await fetch(`https://spotify23.p.rapidapi.com/album_tracks/?id=${albomId}&offset=0&limit=300`, options)
 	.then(response => response.json())
 	.then(response => {
 		console.log(response)
 		button.innerHTML = artistName	
-		
+		ArtistList.innerHTML =`<div class= "card col-md-3 m-1 ">
+		<h2>${ArtistList}</>
+		`
 	})
 	.catch(err => {
 		console.log(err)

@@ -2,17 +2,20 @@
 height: 300px;
 }
 .card p :hover{
-    background-color: rgb(67, 68, 68);
+    background-color: rgb(129, 175, 175);
 }
 .card{
     width: 300px;
-    background-color: rgba(252, 255, 254, 0.998);
+    background-color: rgb(221, 232, 221);
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 80px;
 }
 .myMAIN{
     /* background-image:url(/imags/tranc.jpg);
     background-attachment: fixed;
     background-position: center; */
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.301);
 }
 
 

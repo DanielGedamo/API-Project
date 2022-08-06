@@ -12,7 +12,7 @@ function showData() {
     <p class = "d-none dscrip"><b>Description:</b>${description}</p>
     <P><b>Date:</b>${date}</p>
     <p><b>Location:</b>${location}</p>
-    <a href="${embedUrls}"><button type="button" class="btn btn-outline-primary">see more</button></a>
+    <a href="${embedUrls  } rel="noopener noreferrer" target="_blank" "><button type="button" class="btn btn-outline-primary" >see more</button></a>
     <button onclick="check('${location_id}')" >click for hotels </button>
     </div>
    `;

@@ -2,22 +2,24 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  background-color: rgba(220, 217, 217, 0.58);
-  color: rgb(15, 15, 15);
+  background-color: rgba(112, 113, 112, 0);
+  color: rgba(0, 0, 0, 0.671);
   font-size: large;
 }
 .card {
   width: 300px;
   height: 380px;
-  display: flex;
-  /* flex-direction: column; */
+  display: flex ;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   border: solid 3px rgba(0, 0, 0, 0.678);
   justify-content:left;
   /* box-shadow: inset 80px; */
   /* padding-left: 22px; */
   margin: auto;
   margin-top: 15px;
-  background-color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0);
   
 }
 #container {

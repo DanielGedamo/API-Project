@@ -13,10 +13,8 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  border: solid 3px rgba(0, 0, 0, 0.678);
+  border: solid 3px rgba(14, 182, 19, 0.555);
   justify-content:left;
-  /* box-shadow: inset 80px; */
-  /* padding-left: 22px; */
   margin: auto;
   margin-top: 15px;
   background-color: rgba(255, 255, 255, 0);
@@ -35,7 +33,6 @@
   #maintabs{
     display: flex;
     justify-content: center;
-    /* margin:auto 70px; */
     width: fit-content;
     margin-top: 6vh;
   }

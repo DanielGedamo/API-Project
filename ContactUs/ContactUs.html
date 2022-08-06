@@ -18,49 +18,81 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page"  href="/index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">festival</a>
+                <a class="nav-link" href="/festivals/fest.html">festival</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">recommendation</a>
+                <a class="nav-link" href="/Recommendations/Recommendations.html">recommendation</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled">about us</a>
+                <a class="nav-link" href="/about us/about.html">about us</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
-        <div id="main">
+      
+    <div class="container text-center mb-4 text-black mt-5 mt-5">
+      <h1 class="h1 text-black mb-3 mt-5">Contact</h1>
+      <p class="text-black">
+        Email us ,we would be happy to answer your question .
+      </p>
 
-          <div class="mane" >
-          <form id="myFORM" >          
-            <div class="contactUs"><h1>contact form</h1></div>
-            <div id="name">
-              <input class="firstName" type="text" name="r-name "placeholder="first name" >
-              <label class="firstladel"> first name</label> 
-              <input class="lastName" type="text" name="lastName" placeholder="last Name">
-              <label class="lestLabel"> lest name</label>
-            </div>
-            
-            <h2 class="name">Email</h2>
-            <input class="email" type="text" name="email" placeholder="enter Email">
-
-            <h2 class="phon-label">Phon Number</h2>
-            <input class="num" type="tel" name="area_code"placeholder="enter Phon Number" >
-            <button id="seand-btr">SEAND</button>
-            </div>
-          </form>
+      <form class="row justify-content-center">
+        <div class="row justify-content-center">
+          <div class="col-md-3">
+            <label for="firstname" class="form-label"> </label>
+            <input
+              type="text"
+              class="form-control text-center"
+              id="firstname"
+              placeholder="First Name"
+              required
+            />
+          </div>
+          <div class="col-sm col-md-3">
+            <label for="lastname" class="form-label"> </label>
+            <input type="text" class="form-control text-center text-black" id="lastname" placeholder="Last Name" required/>
+          </div>
         </div>
+
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <label for="email" class="form-label"> </label>
+            <input type="email" class="form-control text-center" id="email" placeholder=" Email@gmail.com" required/>
+          </div>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <label for="phoneNumber" class="form-label"> </label>
+            <input type="tel" class="form-control text-center" id="phoneNumber" placeholder="Phone Number" required/>
+          </div>
+        </div>
+
+        <div class="row justify-content-center mt-2">
+          <div class="col-sm-1 col-md-6">
+            <label for="comment" class="form-label"> </label>
+            <textarea name="comment" class="form-control text-center" id="comment" cols="50" rows="10" placeholder="Comments, Questions?" required></textarea>
+          </div>
+
+          <div class="row mt-5 mb-5 justify-content-center">
+            <div class="col-md-6">
+              <a href=""><button type="submit" class="btn btn-danger">SEND</button></a>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
         <footer class="text-center text-white sticky-bottom d-block" style="background-color: #21081a;">
             <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.454);">
               © 2020 Copyright:
               <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
             </div>
           </footer>
-        
-      <!-- <script src="main.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
 </body>
 </html>

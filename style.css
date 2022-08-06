@@ -11,9 +11,6 @@
 }
 
 .main{
-   /* background-image:url(imags/37f0a1dae8a6050415ad85f217f259b6--mind-tricks-psychedelic-art.jpg); 
-   background-attachment: fixed;
-   background-position: center;  */
    margin: 0; 
    background-color: rgb(255, 251, 251);
 }
@@ -25,19 +22,17 @@
 @media screen and (max-width: 600px){
    
  .carosel{
-   /* display: none; */
+ display: none;
  } 
  
  .picOne{
    width:100%;
-   /* height: 35vw; */
 }
 .main{
    background-color: rgb(87, 81, 81);
 }
 .sectionOne{
    border:medium;
-   /* background-color: rgba(23, 83, 37, 0.822);  */
    margin: 8px;
    display: block;
 

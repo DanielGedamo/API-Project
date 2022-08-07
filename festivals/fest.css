@@ -16,12 +16,42 @@ height: 350px;
     align-items: baseline;
     flex-direction: row-reverse;
     justify-content: space-around;
+    padding-top: 25px;
+    padding-left: 10px;
+    padding-right: 1;
 } 
 .myMAIN{
     background-color: rgba(0, 0, 0, 0.301);
 }
-.fstivalbtn{
-    width: 300px;
+
+.front {
+    -webkit-transform: perspective(600px)rotateY(0deg);
+    transform: perspective(600px)rotateY(0deg);
 }
+.back{
+    background: rgb(221, 232, 221);
+    transform: perspective(600px)rotateY(180deg);
+    opacity: 0;
+    position: absolute;
+    
+    
+
+}
+.front,.back{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    backface-visibility: hidden;
+    /* position: absolute; */
+    transition:  transform .6s linear;
+}
+.card:hover > .front{
+    transform: perspective(600px)rotateY(-180deg);
+}
+.card:hover > .back{
+    transform: perspective(600px)rotateY(0deg);
+    opacity: 1;
+}
+
 
 

@@ -1,3 +1,4 @@
+
 #maintabs {
   display: flex;
   align-items: center;
@@ -17,8 +18,14 @@
   justify-content:left;
   margin: auto;
   margin-top: 15px;
-  background-color: rgba(255, 255, 255, 0);
+  background-color: rgba(240, 128, 128, 0);
+  font-weight: 600;
   
+}
+.card img{
+  display: block;
+  height: 150px;
+  width: 220px;
 }
 #container {
   display: flex;
@@ -46,4 +53,11 @@
       margin-left: 40px;
       margin-top: 30px;
   }
+  .card img{
+    /* display: block; */
+    display: flex;
+    height: 100px;
+    width: 150px;
+  }
+
   }

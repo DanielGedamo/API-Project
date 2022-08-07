@@ -1,4 +1,8 @@
-
+*{
+   box-sizing:border-box;
+   padding: 0;
+   margin: 0;
+ }
 .picOne{
    width: 50vh;
    height: 30vw;
@@ -6,12 +10,16 @@
 .sectionOne{
    border: solid rgba(14, 182, 19, 0.555) 5px;
    /* background-color: rgba(23, 83, 37, 0.822);  */
-   margin: 8px;
+   margin-top: 20px;
+
    
+}
+.phonePic{
+   display: none;
 }
 
 .main{
-   margin: 0; 
+   margin: 0;  
    background-color: rgb(255, 251, 251);
 }
 .textDiv{
@@ -24,17 +32,29 @@
  .carosel{
  display: none;
  } 
+ .phonePic{
+   /* background-image: url(imags/best-festivals-worldwide.jpg); */
+   display: block;
+   width: 390px;
+   height: 200px;
+ }
+ .sectionOne{
+   flex-direction: column-reverse;
+   border:medium;
+
+ }
  
  .picOne{
-   width:100%;
+   width: 340px;
+   height: 300px;
 }
 .main{
    background-color: rgb(87, 81, 81);
 }
-.sectionOne{
+/* .sectionOne{
    border:medium;
    margin: 8px;
    display: block;
 
-}
+} */
 };

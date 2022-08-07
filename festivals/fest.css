@@ -10,9 +10,18 @@ height: 350px;
     margin-top: 30px;
     margin-left: 30px;
     margin-right: 80px;
-}
+    display: flex;
+    align-content: space-between;
+    flex-wrap: wrap;
+    align-items: baseline;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+} 
 .myMAIN{
     background-color: rgba(0, 0, 0, 0.301);
+}
+.fstivalbtn{
+    width: 300px;
 }
 
 

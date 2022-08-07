@@ -3,7 +3,7 @@ let listContainer = document.querySelector(".list-container");
 
 function showData() {
   data.forEach((item ) => {
-    const { title, image, embedUrls, description,date, location, location_id } = item //distructure
+    const { title, image, embedUrls, description,date, location, flight } = item //distructure
     listContainer.innerHTML += 
    `<div class= "card col-md-3 m-1 ">
     <h2>${title}</h2>
@@ -13,7 +13,9 @@ function showData() {
     <P><b>Date:</b>${date}</p>
     <p><b>Location:</b>${location}</p>
     <a href="${embedUrls  } rel="noopener noreferrer" target="_blank" "><button type="button" class="btn btn-outline-primary" >see more</button></a>
-    <button onclick="check('${location_id}')" >click for hotels </button>
+    <a href="${flight } rel="noopener noreferrer" target="_blank" "><button type="button" class="btn btn-outline-primary" >Book a flight</button></a>
+
+
     </div>
    `;
   });

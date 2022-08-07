@@ -9,7 +9,6 @@
 }
 .sectionOne{
    border: solid rgba(14, 182, 19, 0.555) 5px;
-   /* background-color: rgba(23, 83, 37, 0.822);  */
    margin-top: 20px;
 
    
@@ -33,7 +32,6 @@
  display: none;
  } 
  .phonePic{
-   /* background-image: url(imags/best-festivals-worldwide.jpg); */
    display: block;
    width: 390px;
    height: 200px;
@@ -51,10 +49,5 @@
 .main{
    background-color: rgb(87, 81, 81);
 }
-/* .sectionOne{
-   border:medium;
-   margin: 8px;
-   display: block;
 
-} */
 };

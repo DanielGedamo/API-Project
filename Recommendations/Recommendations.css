@@ -14,8 +14,8 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  border: solid 3px rgba(14, 182, 19, 0.555);
-  justify-content:left;
+  border: solid 3px rgba(0, 0, 0, 0.555);
+  /* justify-content:center; */
   margin: auto;
   margin-top: 15px;
   background-color: rgba(240, 128, 128, 0);

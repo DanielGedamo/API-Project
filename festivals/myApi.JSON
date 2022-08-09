@@ -1,13 +1,14 @@
 [{
-    "title": " Boom festival",
+    "title": " Boom Festival",
     "image":
       "https://www.festivalim.co.il/wp-content/uploads/2018/12/Boom_Festival_0.jpg",
     "embedUrls":
       "https://boomfestival.org/boom2022/",
     "description": "The Boom Festival is a biennial transformational, multidisciplinary, psychedelic and sustainable festival that happens every two years in Portugal. Editions are in sync with the full moon.",
     "date": "july 22-29, 2022",
-    "location": " in Idanha-a-Nova,Portugal",
-    "flight": "https://www.esky.eu/?gclid=Cj0KCQjworiXBhDJARIsAMuzAuxD0qlmLOur--aswr_XDle93jzfiMahebNfQS80Ukcs0Qcpl0Am9AIaAv2fEALw_wcB"
+    "location": "lisbon,Portugal",
+    "flight": "https://www.esky.eu/?gclid=Cj0KCQjworiXBhDJARIsAMuzAuxD0qlmLOur--aswr_XDle93jzfiMahebNfQS80Ukcs0Qcpl0Am9AIaAv2fEALw_wcB",
+    "weather": "https://api.openweathermap.org/data/2.5/weather?q=Skanderborg&appid=85470bd4ed69b1bdaae5b623c875c6d7"
   },
   {"title": "ozura festival",
   "image":
@@ -16,8 +17,10 @@
     "https://ozorafestival.eu/",
   "description": "The Ozora is with Solar Festival one of the two sizeable transformational festival festivals in Hungary, one of the largest psychedelic trance festivals in Europe, Ozora is similar to the Boom Festival in Portugal, Burning Man in United States, Fusion Festival in Germany one of the Most Famous Festivals in the World, who also reach more than 40,000 visitors every year.",
   "date": "AUGUST 1-7 2022",
-  "location": " Dádpuszta, Hungary",
-  "flight": "https://www.esky.eu/?gclid=Cj0KCQjworiXBhDJARIsAMuzAuxD0qlmLOur--aswr_XDle93jzfiMahebNfQS80Ukcs0Qcpl0Am9AIaAv2fEALw_wcB"
+  "location": "Budapest, Hungary",
+  "flight": "https://www.esky.eu/?gclid=Cj0KCQjworiXBhDJARIsAMuzAuxD0qlmLOur--aswr_XDle93jzfiMahebNfQS80Ukcs0Qcpl0Am9AIaAv2fEALw_wcB",
+  "weather": "https://api.openweathermap.org/data/2.5/weather?q=Skanderborg&appid=85470bd4ed69b1bdaae5b623c875c6d7"
+
 },
 
 {"title": "ZNA Gathering",
@@ -28,7 +31,9 @@
 "description": "The ZNA Gathering is a biennial psytrance festival in Portugal. Coming from the land that many consider to be the Mecca of psytrance festivals",
 "date": "May 6, 2022",
 "location": "Montargil,Portugal",
-"flight": "https://www.esky.eu/?gclid=Cj0KCQjworiXBhDJARIsAMuzAuxD0qlmLOur--aswr_XDle93jzfiMahebNfQS80Ukcs0Qcpl0Am9AIaAv2fEALw_wcB"
+"flight": "https://www.esky.eu/?gclid=Cj0KCQjworiXBhDJARIsAMuzAuxD0qlmLOur--aswr_XDle93jzfiMahebNfQS80Ukcs0Qcpl0Am9AIaAv2fEALw_wcB",
+"weather": "https://api.openweathermap.org/data/2.5/weather?q=Skanderborg&appid=85470bd4ed69b1bdaae5b623c875c6d7"
+
 },
 
 {"title": "shankra festival",
@@ -38,8 +43,10 @@
   "https://shankrafestival.org/",
 "description": "Beyond music, our main goal is to create a diverse and complete experience. Our activity program takes you on a guided journey to to get in touch with new and mind expanding experiences, while shaping new abilities and collecting inspiring knowledge.",
 "date": "May 6-11, 2023",
-"location": " Nova-port,Sri Lanka",
-"flight": "https://www.esky.eu/?gclid=Cj0KCQjworiXBhDJARIsAMuzAuxD0qlmLOur--aswr_XDle93jzfiMahebNfQS80Ukcs0Qcpl0Am9AIaAv2fEALw_wcB"
+"location": "Colombo,Sri Lanka",
+"flight": "https://www.esky.eu/?gclid=Cj0KCQjworiXBhDJARIsAMuzAuxD0qlmLOur--aswr_XDle93jzfiMahebNfQS80Ukcs0Qcpl0Am9AIaAv2fEALw_wcB",
+"weather": "https://api.openweathermap.org/data/2.5/weather?q=Skanderborg&appid=85470bd4ed69b1bdaae5b623c875c6d7"
+
 },
 
 {"title": "afro nation",
@@ -49,8 +56,9 @@
   "https://afronation.com/",
 "description": "The 2022 edition of Afro Nation Portugal will bring together the best artists in Afrobeats, Hip Hop, RnB, Dancehall, Amapiano Afro House and more. Expect world-class production and iconic live performances and DJ sets over three days.",
 "date": "1ST-3RD JULY 2022",
-"location": "Portimão ,Portugal",
-"flight": "https://www.esky.eu/?gclid=Cj0KCQjworiXBhDJARIsAMuzAuxD0qlmLOur--aswr_XDle93jzfiMahebNfQS80Ukcs0Qcpl0Am9AIaAv2fEALw_wcB"
+"location": "Portimão,Portugal",
+"flight": "https://www.esky.eu/?gclid=Cj0KCQjworiXBhDJARIsAMuzAuxD0qlmLOur--aswr_XDle93jzfiMahebNfQS80Ukcs0Qcpl0Am9AIaAv2fEALw_wcB",    "weather": "https://api.openweathermap.org/data/2.5/weather?q=Skanderborg&appid=85470bd4ed69b1bdaae5b623c875c6d7"
+
 },
 
 {"title": "summerjam",
@@ -60,8 +68,9 @@
   "https://en.summerjam.de/",
 "description": "The hip-hop summer festival format was originally pioneered and popularized by San Francisco radio station KMEL with their large-scale Summer Jam concerts[1] from 1987 through the 1990s and present day.[2] KMEL continues to host smaller versions of the event annually.[3] Similarly, Los Angeles station KKBT held an annual Summer Jam hip-hop concert during the 1990s after hiring KMEL's Program Director in 1993.[1] The concert was discontinued as the station switched formats.",
 "date": " JULY 30, 2023",
-"location": " Cologne,Germany",
-"flight": "https://www.esky.eu/?gclid=Cj0KCQjworiXBhDJARIsAMuzAuxD0qlmLOur--aswr_XDle93jzfiMahebNfQS80Ukcs0Qcpl0Am9AIaAv2fEALw_wcB"
+"location": "Cologne,Germany",
+"flight": "https://www.esky.eu/?gclid=Cj0KCQjworiXBhDJARIsAMuzAuxD0qlmLOur--aswr_XDle93jzfiMahebNfQS80Ukcs0Qcpl0Am9AIaAv2fEALw_wcB",    "weather": "https://api.openweathermap.org/data/2.5/weather?q=Skanderborg&appid=85470bd4ed69b1bdaae5b623c875c6d7"
+
 },
 
 {"title": "victoriaska fest",
@@ -71,8 +80,10 @@
   "https://victoriaskafest.ca/show/563563/view",
 "description": "It took just a tiny bit longer than we expected, but the Victoria Ska & Reggae Society is beyond excited to welcome New Zealand, All-Maori reggae powerhouse KATCHAFIRE back to Victoria! It's been 5 years since Katchafire joined us in Victoria and you can expect a bigger, more triumphant energy than ever, as they return celebrating 25 years as a band.",
 "date": "October 6-8, 2022",
-"location": " Victoria British, Columbia ",
-"flight": "https://www.esky.eu/?gclid=Cj0KCQjworiXBhDJARIsAMuzAuxD0qlmLOur--aswr_XDle93jzfiMahebNfQS80Ukcs0Qcpl0Am9AIaAv2fEALw_wcB"
+"location": "Manizales, Columbia ",
+"flight": "https://www.esky.eu/?gclid=Cj0KCQjworiXBhDJARIsAMuzAuxD0qlmLOur--aswr_XDle93jzfiMahebNfQS80Ukcs0Qcpl0Am9AIaAv2fEALw_wcB",
+"weather": "https://api.openweathermap.org/data/2.5/weather?q=Skanderborg&appid=85470bd4ed69b1bdaae5b623c875c6d7"
+
 },
 
 {"title": "wireless-festival",
@@ -83,7 +94,9 @@
 "description": "The Wireless Festival is a rap and urban music festival that takes place every year in London, England. It is owned and managed by Live Nation. While it started as primarily a rock and pop festival, in recent years it has focused on hip hop and other urban music.",
 "date": "May 6, 2022",
 "location": "London, England",
-"flight": "https://www.esky.eu/?gclid=Cj0KCQjworiXBhDJARIsAMuzAuxD0qlmLOur--aswr_XDle93jzfiMahebNfQS80Ukcs0Qcpl0Am9AIaAv2fEALw_wcB"
+"flight": "https://www.esky.eu/?gclid=Cj0KCQjworiXBhDJARIsAMuzAuxD0qlmLOur--aswr_XDle93jzfiMahebNfQS80Ukcs0Qcpl0Am9AIaAv2fEALw_wcB",
+"weather": "https://api.openweathermap.org/data/2.5/weather?q=Skanderborg&appid=85470bd4ed69b1bdaae5b623c875c6d7"
+
 },
 
 {"title": "80s Rock The Dam  ",
@@ -93,8 +106,9 @@
   "https://myrockshows.com/event/612001-beaver-dam-amphitheater/",
 "description": "You have a great opportunity to visit 80s Rock The Dam Fest 2022 on 30.07.2022 at City Park in Beaver Dam, KY.Explore this page to find more about the upcoming festival history and details for a visitor.",
 "date": "July, 30 Sat 2023",
-"location": "Beaver Damgirlend, KY",
-"flight": "https://www.esky.eu/?gclid=Cj0KCQjworiXBhDJARIsAMuzAuxD0qlmLOur--aswr_XDle93jzfiMahebNfQS80Ukcs0Qcpl0Am9AIaAv2fEALw_wcB"
+"location": "cartagena, KY",
+"flight": "https://www.esky.eu/?gclid=Cj0KCQjworiXBhDJARIsAMuzAuxD0qlmLOur--aswr_XDle93jzfiMahebNfQS80Ukcs0Qcpl0Am9AIaAv2fEALw_wcB",    "weather": "https://api.openweathermap.org/data/2.5/weather?q=Skanderborg&appid=85470bd4ed69b1bdaae5b623c875c6d7"
+
 },
 
 {"title": "SLIPKNOT FEST",
@@ -104,8 +118,10 @@
   "https://www.wacken.com/de/programm/bands/#/bandfilter/alien-rockin-explosion#artistdetail",
 "description": "SLIPKNOT emerged at the back end of the 20th Century from the US midwestern town of Des Moines, IA and quickly established themselves as the most enigmatic, provocative, and aggressive collective in contemporary music. 1999’s eponymous debut album is widely regarded as a modern day classic and was honored by Metal Hammer magazine as the ‘Best Debut of the Last 25 Years.’",
 "date": "July 6, 2023",
-"location": "Irvine, California,U.S.A",
-"flight": "https://www.esky.eu/?gclid=Cj0KCQjworiXBhDJARIsAMuzAuxD0qlmLOur--aswr_XDle93jzfiMahebNfQS80Ukcs0Qcpl0Am9AIaAv2fEALw_wcB"
+"location": "los angeles, California,U.S.A",
+"flight": "https://www.esky.eu/?gclid=Cj0KCQjworiXBhDJARIsAMuzAuxD0qlmLOur--aswr_XDle93jzfiMahebNfQS80Ukcs0Qcpl0Am9AIaAv2fEALw_wcB",
+"weather": "https://api.openweathermap.org/data/2.5/weather?q=Skanderborg&appid=85470bd4ed69b1bdaae5b623c875c6d7"
+
 },
 
 {"title": "Smukfest",
@@ -115,8 +131,10 @@
   "https://www.songkick.com/festivals/1466-smukfest/id/40121647-smukfest-2022",
 "description": "Deep in a forest of beech outside Skanderborg in Denmark lies the infamous Smukfest. Rock, heavy metal, pop, blues, andfolk fill the air of Denmark's 2nd largest camping festival. The mascot of Smukfest is a troll named Waltidur Festismuk Kærligkys Ølimund Rockilund Trold which roughly translates to Waltidur Party-Beauty Loving-Kiss Beer-In-Mouth Rock-In-Grove Troll. OFFICIAL WEBSITE",
 "date": "May 26, 2022",
-"location": "elinoedin,Denmark",
-"flight": "https://www.esky.eu/?gclid=Cj0KCQjworiXBhDJARIsAMuzAuxD0qlmLOur--aswr_XDle93jzfiMahebNfQS80Ukcs0Qcpl0Am9AIaAv2fEALw_wcB"
+"location": "mexico, mexico",
+"flight": "https://www.esky.eu/?gclid=Cj0KCQjworiXBhDJARIsAMuzAuxD0qlmLOur--aswr_XDle93jzfiMahebNfQS80Ukcs0Qcpl0Am9AIaAv2fEALw_wcB",
+"weather": "https://api.openweathermap.org/data/2.5/weather?q=Skanderborg&appid=85470bd4ed69b1bdaae5b623c875c6d7"
+
 },
 
 {"title": "wacken fest",
@@ -126,7 +144,9 @@
   "https://www.wacken.com/en/?r=1",
 "description": "The odds are pretty good that this year’s Wacken Open Air will be mostly dry and hot! Thats why we take the time to talk a little bit about how behave…",
 "date": "may 14, 2022",
-"location": "Schleswig-Holstein, Germany",
-"flight": "https://www.esky.eu/?gclid=Cj0KCQjworiXBhDJARIsAMuzAuxD0qlmLOur--aswr_XDle93jzfiMahebNfQS80Ukcs0Qcpl0Am9AIaAv2fEALw_wcB"
+"location": "ica, Germany",
+"flight": "https://www.esky.eu/?gclid=Cj0KCQjworiXBhDJARIsAMuzAuxD0qlmLOur--aswr_XDle93jzfiMahebNfQS80Ukcs0Qcpl0Am9AIaAv2fEALw_wcB",
+"weather": "https://api.openweathermap.org/data/2.5/weather?q=Skanderborg&appid=85470bd4ed69b1bdaae5b623c875c6d7"
+
 }
 ]

@@ -2,11 +2,11 @@
 height: 350px;
 }
 .card p :hover{
-    background-color: rgb(129, 175, 175);
+    background-color: rgb(255, 255, 255);
 }
 .card{
     width: 300px;
-    background-color: rgb(221, 232, 221);
+    background-color: rgb(255, 255, 255);
     margin-top: 30px;
     margin-left: 30px;
     margin-right: 80px;
@@ -19,9 +19,10 @@ height: 350px;
     padding-top: 25px;
     padding-left: 10px;
     padding-right: 1;
+    align-items: center;
 } 
 .myMAIN{
-    background-color: rgba(0, 0, 0, 0.301);
+    background-color: rgb(252, 248, 248);
 }
 
 .front {
@@ -29,7 +30,7 @@ height: 350px;
     transform: perspective(600px)rotateY(0deg);
 }
 .back{
-    background: rgb(221, 232, 221);
+    background: rgb(255, 255, 255);
     transform: perspective(600px)rotateY(180deg);
     opacity: 0;
     position: absolute;
@@ -42,7 +43,6 @@ height: 350px;
     height: 100%;
     overflow: hidden;
     backface-visibility: hidden;
-    /* position: absolute; */
     transition:  transform .6s linear;
 }
 .card:hover > .front{

@@ -39,12 +39,12 @@ async function getUsers(){
   console.log(user)
    return `
    
-   <div class ="card">
-   <div ><img src= "${userPicArray[counter++]}"></div>
-   <p><b>${user.name.first} ${user.name.last}<b/></p>
-   <p><b>${user.age}<b/></p>
-   <p><b>${user.phone}<b/></p>
-   <p><b>${user.email}<b/></p>
+   <div class ="card d-flex">
+   <div><img src= "${userPicArray[counter++]}"></div>
+   <p ><b>${user.name.first} ${user.name.last}<b/></p>
+   <p class = "d-flex justify-content-center"><b>${user.age}<b/></p>
+   <p class = "d-flex justify-content-center"><b>${user.phone}<b/></p>
+   <p class =>${user.email}</p>
    </div>`;
   }
 

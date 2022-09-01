@@ -40,7 +40,7 @@ async function getUsers(){
    return `
    
    <div class ="card d-flex">
-   <div><img src= "${userPicArray[counter++]}"></div>
+   <div><img src= "${userPicArray[counter+]}"></div>
    <p ><b>${user.name.first} ${user.name.last}<b/></p>
    <p class = "d-flex justify-content-center"><b>${user.age}<b/></p>
    <p class = "d-flex justify-content-center"><b>${user.phone}<b/></p>
